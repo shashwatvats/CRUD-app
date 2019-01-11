@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Input } from '@angular/core';
 
 @Component({
   selector: 'app-post-display',
@@ -6,10 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./post-display.component.css']
 })
 export class PostDisplayComponent implements OnInit {
-
-  posts = [
-    
-  ]
+  @Input() posts=[];
   constructor() { }
 
   ngOnInit() {
