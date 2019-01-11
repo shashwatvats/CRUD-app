@@ -7,3 +7,12 @@ mat-expansion-panel
     width: 85%;
     margin: auto;
 }
+a>i{
+    font-size: 20px; 
+ }
+ #trash{
+     color: red;
+ }
+ #edit{
+     color: blue;
+ }
