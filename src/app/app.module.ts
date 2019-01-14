@@ -9,6 +9,7 @@ import {MatInputModule,MatCardModule,MatButtonModule,MatToolbarModule,MatExpansi
 import { HeaderComponent } from './header/header.component';
 import { PostDisplayComponent } from './posts/post-display/post-display.component';
 import { PostsService } from './posts/posts.service';
+import {HttpClientModule} from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,8 @@ import { PostsService } from './posts/posts.service';
     MatExpansionModule,
     MatCardModule,
     MatButtonModule,
-    MatToolbarModule
+    MatToolbarModule,
+    HttpClientModule
   ],
   providers: [PostsService],
   bootstrap: [AppComponent]

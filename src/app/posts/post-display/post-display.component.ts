@@ -14,7 +14,7 @@ export class PostDisplayComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.posts=this.postsService.getPosts();
+    this.postsService.getPosts();
   }
 
 }
